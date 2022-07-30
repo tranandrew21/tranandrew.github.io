@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf3fa;
+    font-family: Kanit, sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+}
+
+#home {
+    font-family: Kanit, sans-serif;
+    display: inline;
+    padding-left: 20px;
+    padding-top: 2px;
+    margin: 20px;
+    color: #ffc08a;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Kanit, sans-serif;
+    display: inline;
+    padding: 35px 30px;
+    margin: 0;
+    left: 2em;
+}
+
+nav a:hover {
+    background-color: black;
+    border: 1px;
+}
+
+#welcome {
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#bodypar {
+    padding: 25px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+.image {
+    height: 500px;
+    background-image: url(../images/whitescene.jpg);
+    background-size: cover;
+}
+
+footer {
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+    bottom: 0;
+    padding: 30px 0;
+    height: 75px;
+}
+footer p, footer h5 {
+    color: white;
+}
+.main-buttons a{
+    text-decoration: none;
+    color: white;
+    font-family: Kanit, sans-serif;
+    display: inline;
+    padding: 20px 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.other-pages .col {
+    display: inline-block;
+    padding-right: 3em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 400px;
+}
+
+.col a {
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px 30px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.col a:hover {
+    background-color: red;
+}
+
